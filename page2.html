@@ -1,166 +1,404 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!-- Goho(A  shona  word meaning harvest)The application for farming on mobile devices offers solutions to various difficulties encountered by farmers, including limited information, the impact of climate change, and accessibility to input and output markets -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.9.18, mobirise.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="assets/images/goho-logo-96x96.png" type="image/x-icon">
-    <meta name="description" content="">
+    <meta name="description"
+        content="Goho Solutions awards and recognition for agri-tech innovation in Zimbabwe.">
+    <title>Goho Solutions | Awards</title>
+    <style>
+        :root {
+            --leaf: #1f7a3a;
+            --deep: #102015;
+            --ink: #17211b;
+            --muted: #5b675f;
+            --cream: #f7f4ea;
+            --field: #eef7ef;
+            --sun: #f0b429;
+            --white: #ffffff;
+            --line: rgba(23, 33, 27, 0.12);
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    <title>Awards</title>
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/tether/tether.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700&display=swap"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700&display=swap">
-    </noscript>
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=6jjGfI">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=6jjGfI" type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--ink);
+            background: var(--field);
+            line-height: 1.6;
+        }
 
+        img {
+            display: block;
+            max-width: 100%;
+        }
 
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            background: rgba(255, 255, 255, 0.94);
+            border-bottom: 1px solid var(--line);
+            backdrop-filter: blur(12px);
+        }
 
+        .nav {
+            width: min(1180px, calc(100% - 32px));
+            min-height: 78px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
 
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--ink);
+            font-weight: 800;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+        .brand img {
+            width: 48px;
+            height: 48px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            color: var(--muted);
+            font-size: 0.95rem;
+            font-weight: 700;
+        }
+
+        .nav-links a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover,
+        .nav-links .active {
+            color: var(--leaf);
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 46px;
+            padding: 12px 20px;
+            border-radius: 6px;
+            background: var(--leaf);
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+
+        .button-light {
+            background: var(--white);
+            color: var(--leaf);
+            border: 1px solid rgba(31, 122, 58, 0.25);
+        }
+
+        .section-inner {
+            width: min(1180px, calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        .hero {
+            padding: 116px 0 84px;
+            background:
+                linear-gradient(90deg, rgba(16, 32, 21, 0.92), rgba(16, 32, 21, 0.7)),
+                url("assets/images/front-view-woman-with-face-mask-market-1456x971.jpg") center/cover;
+            color: var(--white);
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            width: fit-content;
+            margin-bottom: 18px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(240, 180, 41, 0.16);
+            color: #ffe29a;
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            max-width: 850px;
+            margin-bottom: 22px;
+            font-size: clamp(2.4rem, 5vw, 5rem);
+            line-height: 1;
+        }
+
+        .hero p {
+            max-width: 720px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.14rem;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 28px;
+        }
+
+        .awards {
+            padding: 86px 0;
+        }
+
+        .section-heading {
+            max-width: 760px;
+            margin-bottom: 34px;
+        }
+
+        .label {
+            margin-bottom: 10px;
+            color: var(--leaf);
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            margin-bottom: 16px;
+            font-size: clamp(2rem, 4vw, 3.3rem);
+            line-height: 1.05;
+        }
+
+        .section-heading p {
+            color: var(--muted);
+            font-size: 1.08rem;
+        }
+
+        .award-list {
+            display: grid;
+            gap: 16px;
+        }
+
+        .award-card {
+            display: grid;
+            grid-template-columns: 160px 1fr;
+            gap: 24px;
+            align-items: center;
+            min-height: 170px;
+            padding: 26px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--white);
+        }
+
+        .award-year {
+            display: grid;
+            place-items: center;
+            min-height: 118px;
+            border-radius: 8px;
+            background: var(--deep);
+            color: var(--sun);
+            font-size: 2rem;
+            font-weight: 900;
+        }
+
+        .award-card h3 {
+            margin-bottom: 8px;
+            font-size: 1.45rem;
+            line-height: 1.2;
+        }
+
+        .award-card p {
+            color: var(--muted);
+        }
+
+        .recognition {
+            padding: 76px 0;
+            background: var(--cream);
+        }
+
+        .recognition-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .recognition-card {
+            min-height: 178px;
+            padding: 24px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--white);
+        }
+
+        .recognition-card h3 {
+            margin-bottom: 10px;
+            font-size: 1.25rem;
+        }
+
+        .recognition-card p {
+            color: var(--muted);
+        }
+
+        footer {
+            padding: 34px 0;
+            background: var(--deep);
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        .footer-inner {
+            width: min(1180px, calc(100% - 32px));
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 980px) {
+            .nav {
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 14px 0;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                gap: 14px;
+            }
+
+            .recognition-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .award-card {
+                grid-template-columns: 1fr;
+            }
+
+            .button {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
-
-    <section class="menu firmm4_menu1 cid-tGeYnC3Gsn" once="menu" id="menu1-u">
-
-        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-            <div class="container">
-                <div class="navbar-brand">
-                    <span class="navbar-logo">
-                        <a href="https://mobiri.se">
-                            <img src="assets/images/goho-logo-96x96.png" alt="Mobirise" style="height: 4.9rem;">
-                        </a>
-                    </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-5"
-                            href="https://mobiri.se">Goho</a></span>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <div class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="index.html#header3-b">About us</a></li>
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="index.html#features3-4">Features</a></li>
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="page2.html">Awards</a></li>
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="page1.html">Team</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="index.html#video1-d">Check out Goho App <br>&nbsp;Video!</a></li>
-                    </ul>
-                </div>
-
-
+    <header class="site-header">
+        <nav class="nav" aria-label="Main navigation">
+            <a class="brand" href="index.html">
+                <img src="assets/images/goho-logo-96x96.png" alt="Goho logo">
+                <span>Goho Solutions</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#now">Available now</a>
+                <a href="index.html#crop-doctor">Crop Doctor</a>
+                <a href="index.html#roadmap">Roadmap</a>
+                <a class="active" href="page2.html">Awards</a>
+                <a href="page1.html">Team</a>
+                <a href="assets/images/app-release.apk">Download App</a>
             </div>
         </nav>
-    </section>
+    </header>
 
-    <section data-bs-version="5.1" class="features4 cid-tGeYCZwAeE" id="features4-y">
-
-
-
-
-        <div class="container">
-            <div class="main_header">
-                <div class="row">
-                    <div class="col-12 col-md-12 col-lg-12">
-                        <h4 class="mbr-section-subtitle mbr-fonts-style ls-1 display-4">THE BEST SOLUTIONS FOR OUR
-                            CLIENTS</h4>
-
-
-                    </div>
+    <main>
+        <section class="hero">
+            <div class="section-inner">
+                <div class="eyebrow">Recognition</div>
+                <h1>Recognised for agri-tech innovation and farmer support.</h1>
+                <p>
+                    Goho's early work has been recognised through local and international innovation
+                    platforms focused on agriculture, technology, and practical solutions for farmers.
+                </p>
+                <div class="hero-actions">
+                    <a class="button" href="assets/images/app-release.apk">Download App</a>
+                    <a class="button button-light" href="mailto:information@gohosolutions.co.zw">Contact Goho</a>
                 </div>
             </div>
+        </section>
 
-            <div class="row justify-content-center">
-
-
-
-
-                <div class="card col-12 col-md-12 col-lg-12">
-                    <div class="card-wrapper">
-                        <div class="card-box">
-                            <div class="circle_animation">
-                                <div class="circle_fill circle"></div>
-                                <div class="circle_null circle"></div>
-                            </div>
-                            <div class="content_box">
-                                <div class="content_title">
-                                    <h4 class="card-title ls-1 mb-0 mbr-fonts-style display-5">Potraz Agritech
-                                        Hackathon, (Zimbabwe) 2021</h4>
-                                </div>
-                                <div class="content_text">
-                                    <p class="card-text mbr-fonts-style display-4">3rd Creative Agritech idea</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <section class="awards">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <div class="label">Awards and milestones</div>
+                    <h2>Early validation for the Goho idea.</h2>
+                    <p>
+                        These milestones show interest in Goho's mission to make agricultural
+                        information more accessible for Zimbabwean farmers.
+                    </p>
                 </div>
-                <div class="card col-12 col-md-12 col-lg-12">
-                    <div class="card-wrapper">
-                        <div class="card-box">
-                            <div class="circle_animation">
-                                <div class="circle_fill circle"></div>
-                                <div class="circle_null circle"></div>
-                            </div>
-                            <div class="content_box">
-                                <div class="content_title">
-                                    <h4 class="card-title ls-1 mb-0 mbr-fonts-style display-5">Participated at WIPO
-                                        World IP Day 2022</h4>
-                                </div>
-                                <div class="content_text">
-                                    <p class="card-text mbr-fonts-style display-4">Goho App got listed on the WIPO
-                                        magazine</p>
 
-                                </div>
-                            </div>
+                <div class="award-list">
+                    <article class="award-card">
+                        <div class="award-year">2021</div>
+                        <div>
+                            <h3>POTRAZ Agritech Hackathon, Zimbabwe</h3>
+                            <p>
+                                Goho was recognised as the 3rd creative agri-tech idea, highlighting
+                                the platform's potential to support farmers through digital tools.
+                            </p>
                         </div>
-                    </div>
+                    </article>
+                    <article class="award-card">
+                        <div class="award-year">2022</div>
+                        <div>
+                            <h3>WIPO World IP Day Participation</h3>
+                            <p>
+                                Goho participated at WIPO World IP Day and was listed in WIPO magazine,
+                                giving the project wider visibility as an agriculture innovation.
+                            </p>
+                        </div>
+                    </article>
                 </div>
             </div>
+        </section>
+
+        <section class="recognition">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <div class="label">Why it matters</div>
+                    <h2>Recognition helps build trust.</h2>
+                </div>
+                <div class="recognition-grid">
+                    <article class="recognition-card">
+                        <h3>Farmer-focused</h3>
+                        <p>Goho is built around practical information that farmers can use in real decisions.</p>
+                    </article>
+                    <article class="recognition-card">
+                        <h3>Locally relevant</h3>
+                        <p>The platform responds to information gaps faced by Zimbabwean farmers.</p>
+                    </article>
+                    <article class="recognition-card">
+                        <h3>Ready to grow</h3>
+                        <p>The roadmap points toward records, buyer links, harvest visibility, and traceability.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <span>© 2026 Goho Solutions. Digital farming information for Zimbabwe.</span>
+            <span>information@gohosolutions.co.zw</span>
         </div>
-    </section>
-
-
-    <script src="assets/web/assets/jquery/jquery.min.js"></script>
-    <script src="assets/popper/popper.min.js"></script>
-    <script src="assets/tether/tether.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/smoothscroll/smooth-scroll.js"></script>
-    <script src="assets/dropdown/js/nav-dropdown.js"></script>
-    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-    <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-    <script src="assets/theme/js/script.js"></script>
-
-
-
+    </footer>
 </body>
 
 </html>

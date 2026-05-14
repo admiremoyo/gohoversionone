@@ -1,184 +1,442 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!-- Goho(A  shona  word meaning harvest)The application for farming on mobile devices offers solutions to various difficulties encountered by farmers, including limited information, the impact of climate change, and accessibility to input and output markets -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.9.18, mobirise.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="assets/images/goho-logo-96x96.png" type="image/x-icon">
-    <meta name="description" content="">
+    <meta name="description"
+        content="Meet the Goho Solutions team building digital farming information tools for Zimbabwean farmers.">
+    <title>Goho Solutions | Team</title>
+    <style>
+        :root {
+            --leaf: #1f7a3a;
+            --deep: #102015;
+            --ink: #17211b;
+            --muted: #5b675f;
+            --cream: #f7f4ea;
+            --field: #eef7ef;
+            --sun: #f0b429;
+            --white: #ffffff;
+            --line: rgba(23, 33, 27, 0.12);
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    <title>Team</title>
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/tether/tether.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700&display=swap"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700&display=swap">
-    </noscript>
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=MjEUTb">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=MjEUTb" type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--ink);
+            background: var(--field);
+            line-height: 1.6;
+        }
 
+        img {
+            display: block;
+            max-width: 100%;
+        }
 
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            background: rgba(255, 255, 255, 0.94);
+            border-bottom: 1px solid var(--line);
+            backdrop-filter: blur(12px);
+        }
 
+        .nav {
+            width: min(1180px, calc(100% - 32px));
+            min-height: 78px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
 
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--ink);
+            font-weight: 800;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+        .brand img {
+            width: 48px;
+            height: 48px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            color: var(--muted);
+            font-size: 0.95rem;
+            font-weight: 700;
+        }
+
+        .nav-links a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover,
+        .nav-links .active {
+            color: var(--leaf);
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 46px;
+            padding: 12px 20px;
+            border-radius: 6px;
+            border: 1px solid transparent;
+            background: var(--leaf);
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+
+        .button-light {
+            background: var(--white);
+            color: var(--leaf);
+            border-color: rgba(31, 122, 58, 0.25);
+        }
+
+        .hero {
+            background: var(--deep);
+            color: var(--white);
+            padding: 116px 0 72px;
+        }
+
+        .section-inner {
+            width: min(1180px, calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 0.8fr;
+            gap: 48px;
+            align-items: end;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            width: fit-content;
+            margin-bottom: 18px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(240, 180, 41, 0.14);
+            color: #ffe29a;
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            max-width: 820px;
+            margin-bottom: 22px;
+            font-size: clamp(2.4rem, 5vw, 5rem);
+            line-height: 1;
+        }
+
+        .hero p {
+            max-width: 720px;
+            color: rgba(255, 255, 255, 0.76);
+            font-size: 1.14rem;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 28px;
+        }
+
+        .stat-box {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 8px;
+            padding: 28px;
+        }
+
+        .stat-box strong {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--sun);
+            font-size: 2rem;
+        }
+
+        .team {
+            padding: 86px 0;
+        }
+
+        .section-heading {
+            max-width: 760px;
+            margin-bottom: 34px;
+        }
+
+        .label {
+            margin-bottom: 10px;
+            color: var(--leaf);
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            margin-bottom: 16px;
+            font-size: clamp(2rem, 4vw, 3.3rem);
+            line-height: 1.05;
+        }
+
+        .section-heading p {
+            color: var(--muted);
+            font-size: 1.08rem;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .team-card {
+            overflow: hidden;
+            min-height: 100%;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--white);
+        }
+
+        .team-card img {
+            width: 100%;
+            aspect-ratio: 4 / 4.8;
+            object-fit: cover;
+            background: var(--cream);
+        }
+
+        .team-card .content {
+            padding: 22px;
+        }
+
+        .team-card h3 {
+            margin-bottom: 6px;
+            font-size: 1.25rem;
+            line-height: 1.2;
+        }
+
+        .team-card p {
+            color: var(--muted);
+        }
+
+        .mission {
+            padding: 76px 0;
+            background: var(--cream);
+        }
+
+        .mission-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .mission-card {
+            min-height: 180px;
+            padding: 24px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--white);
+        }
+
+        .mission-card h3 {
+            margin-bottom: 10px;
+            font-size: 1.25rem;
+        }
+
+        .mission-card p {
+            color: var(--muted);
+        }
+
+        footer {
+            padding: 34px 0;
+            background: var(--deep);
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        .footer-inner {
+            width: min(1180px, calc(100% - 32px));
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 980px) {
+            .nav {
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 14px 0;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                gap: 14px;
+            }
+
+            .hero-grid,
+            .team-grid,
+            .mission-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero-grid,
+            .team-grid,
+            .mission-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .button {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
-
-    <section class="menu firmm4_menu1 cid-tGeTjdVB2M" once="menu" id="menu1-i">
-
-        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-            <div class="container">
-                <div class="navbar-brand">
-                    <span class="navbar-logo">
-                        <a href="https://mobiri.se">
-                            <img src="assets/images/goho-logo-96x96.png" alt="Mobirise" style="height: 4.9rem;">
-                        </a>
-                    </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-5"
-                            href="https://mobiri.se">Goho</a></span>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <div class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="index.html#header3-b">About us</a></li>
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="index.html#features3-4">Features</a></li>
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="page2.html">Awards</a></li>
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="page1.html">Team</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4"
-                                href="index.html#video1-d">Check out Goho App <br>&nbsp;Video!</a></li>
-                    </ul>
-                </div>
-
-
+    <header class="site-header">
+        <nav class="nav" aria-label="Main navigation">
+            <a class="brand" href="index.html">
+                <img src="assets/images/goho-logo-96x96.png" alt="Goho logo">
+                <span>Goho Solutions</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#now">Available now</a>
+                <a href="index.html#crop-doctor">Crop Doctor</a>
+                <a href="index.html#roadmap">Roadmap</a>
+                <a href="page2.html">Awards</a>
+                <a class="active" href="page1.html">Team</a>
+                <a href="assets/images/app-release.apk">Download App</a>
             </div>
         </nav>
-    </section>
+    </header>
 
-    <section class="header2 firmm4_header2 cid-tGeTjaMfnD" id="header2-f">
-
-
-
-
-
-        <div class="container">
-            <div class="row justify-content-center align-items-center flex-row-reverse">
-                <div class="col-lg-6 col-md-6 col-12 head_block">
-
-                    <h1 class="mbr-section-title mbr-fonts-style display-1"><strong>Admire Moyo&nbsp;</strong></h1>
-                    <p class="mbr-text mbr-fonts-style display-7">IT Expert</p>
-
+    <main>
+        <section class="hero">
+            <div class="section-inner hero-grid">
+                <div>
+                    <div class="eyebrow">The people behind Goho</div>
+                    <h1>A team building practical farming information for Zimbabwe.</h1>
+                    <p>
+                        Goho brings together technology, agronomy, and market development experience
+                        to help farmers access useful information and prepare for stronger digital
+                        agriculture services.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button" href="assets/images/app-release.apk">Download App</a>
+                        <a class="button button-light" href="mailto:information@gohosolutions.co.zw">Contact Goho</a>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-7 col-12 image_img">
-                    <img src="assets/images/img-20221014-wa0011-730x1080.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="header2 firmm4_header2 cid-tGeUENf5Bn" id="header2-p">
-
-
-
-
-
-        <div class="container">
-            <div class="row justify-content-center align-items-center flex-row-reverse">
-                <div class="col-lg-6 col-md-6 col-12 head_block">
-
-                    <h1 class="mbr-section-title mbr-fonts-style display-1"><strong>Nigel A Chirima&nbsp;</strong></h1>
-                    <p class="mbr-text mbr-fonts-style display-7">Agronomist</p>
-
-                </div>
-                <div class="col-lg-6 col-md-7 col-12 image_img">
-                    <img src="assets/images/nigel-700x927.jpg" alt="">
+                <div class="stat-box">
+                    <strong>Goho</strong>
+                    <p>
+                        A Shona word meaning harvest, and a platform focused on helping more people
+                        farm with confidence.
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="header2 firmm4_header2 cid-tGeUFEAhZ9" id="header2-q">
-
-
-
-
-
-        <div class="container">
-            <div class="row justify-content-center align-items-center flex-row-reverse">
-                <div class="col-lg-6 col-md-6 col-12 head_block">
-
-                    <h1 class="mbr-section-title mbr-fonts-style display-1"><strong>Luckson J kagona&nbsp;</strong></h1>
-                    <p class="mbr-text mbr-fonts-style display-7">Agronomist</p>
-
+        <section class="team">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <div class="label">Team</div>
+                    <h2>Built by a local team close to the problem.</h2>
+                    <p>
+                        The team combines product thinking, agricultural knowledge, and market
+                        outreach to support youth, women, beginner farmers, and smallholder growers.
+                    </p>
                 </div>
-                <div class="col-lg-6 col-md-7 col-12 image_img">
-                    <img src="assets/images/jack-658x1000.jpg" alt="">
+                <div class="team-grid">
+                    <article class="team-card">
+                        <img src="assets/images/img-20221014-wa0011-730x1080.jpg" alt="Admire Moyo">
+                        <div class="content">
+                            <h3>Admire Moyo</h3>
+                            <p>Technology and product development</p>
+                        </div>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/nigel-700x927.jpg" alt="Nigel A Chirima">
+                        <div class="content">
+                            <h3>Nigel A Chirima</h3>
+                            <p>Agronomy and crop knowledge</p>
+                        </div>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/jack-658x1000.jpg" alt="Luckson J Kagona">
+                        <div class="content">
+                            <h3>Luckson J Kagona</h3>
+                            <p>Agronomy and farmer support</p>
+                        </div>
+                    </article>
+                    <article class="team-card">
+                        <img src="assets/images/pm2.jpg" alt="Albert I Marimbe">
+                        <div class="content">
+                            <h3>Albert I Marimbe</h3>
+                            <p>Marketing and partnerships</p>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="header2 firmm4_header2 cid-tGeUGvjw8J" id="header2-r">
-
-
-
-
-
-        <div class="container">
-            <div class="row justify-content-center align-items-center flex-row-reverse">
-                <div class="col-lg-6 col-md-6 col-12 head_block">
-
-                    <h1 class="mbr-section-title mbr-fonts-style display-1"><strong>Albert I Marimbe&nbsp;</strong></h1>
-                    <p class="mbr-text mbr-fonts-style display-7">Marketer</p>
-
+        <section class="mission">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <div class="label">How we work</div>
+                    <h2>Focused on useful information first.</h2>
                 </div>
-                <div class="col-lg-6 col-md-7 col-12 image_img">
-                    <img src="assets/images/pm2.jpg" alt="">
+                <div class="mission-grid">
+                    <article class="mission-card">
+                        <h3>Practical content</h3>
+                        <p>Crop, weather, market, and farming education that farmers can understand and apply.</p>
+                    </article>
+                    <article class="mission-card">
+                        <h3>Inclusive access</h3>
+                        <p>Support for youth, women, beginner farmers, and communities with limited farming knowledge.</p>
+                    </article>
+                    <article class="mission-card">
+                        <h3>Responsible growth</h3>
+                        <p>Clear separation between what Goho offers now and what is still being developed.</p>
+                    </article>
                 </div>
             </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <span>© 2026 Goho Solutions. Digital farming information for Zimbabwe.</span>
+            <span>information@gohosolutions.co.zw</span>
         </div>
-    </section>
-
-
-    <script src="assets/web/assets/jquery/jquery.min.js"></script>
-    <script src="assets/popper/popper.min.js"></script>
-    <script src="assets/tether/tether.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/smoothscroll/smooth-scroll.js"></script>
-    <script src="assets/dropdown/js/nav-dropdown.js"></script>
-    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-    <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-    <script src="assets/playervimeo/vimeo_player.js"></script>
-    <script src="assets/theme/js/script.js"></script>
-
-
-
+    </footer>
 </body>
 
 </html>
